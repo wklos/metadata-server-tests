@@ -7,7 +7,7 @@
     "lint:fix": "npx eslint . --fix",
     "prettier:check": "npx prettier --check .",
     "prettier:write": "npx prettier --write .",
-    "test": "mocha -r ts-node/register tests/*.spec.ts"
+    "test": "mocha -r ts-node/register tests/*.spec.ts --timeout 10000"
   },
   "keywords": [
     "mocha",
